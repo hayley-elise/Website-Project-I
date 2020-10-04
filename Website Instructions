@@ -1,0 +1,22 @@
+# Website-Project-I
+The first website project in my Software Development class (Fall 2020)
+Goal was to demonstrate my familiarity with the fundamentals of html and css by developing a
+website around a coherent theme of my choosing.
+
+Required to show in the website the following:
+  • Navigation, at least 3 pages, where each links to the others
+  • Specifying styles (show you can specify attributes in all three ways):
+      o in a .css style file
+      o embedded in the head section of an .html file
+      o inline with an element
+  • use of div & span with classes & ids in the application of styling attributes to both text &
+    images (e.g. font size, weight, color, boxes, borders, margins, padding, etc.)
+  • use of web fonts
+  • a variety of layouts & display modes (at least three)
+      o table
+      o floats
+      o flex
+      o boxes
+      o columns
+      o galleries
+      o other
