@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    font-family:'Tangerine', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #ff99cc;
+    padding: 80px;
+    text-shadow: 3px 3px 5px white;
+}
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+body {
+    background-color: black;
+}
+section:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+article {
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 30px;
+    width: 77%;
+}
+nav {
+    text-align: left;
+    text-shadow: 1px 1px 4px white;
+    float: left;
+    width: 23%;
+    height: 25%;
+    padding: 30px;
+}
+li {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 3px;
+}
+a {
+    color: white;
+    font-family:'Tangerine', cursive;
+    font-size: 30px;
+}
+a:visited {
+    color: #7733ff;
+}
+a:hover {
+    color: #ff3399;
+}
+a:active {
+    color: #b30000;
+}
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+i1 {
+    font-size: 25px;
+}
+i {
+    font-size: 18px;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+p1 {
+    font-family:'Courgette', cursive;
+    font-size: 21px;
+}
+p2 {
+    font-family:'Courgette', cursive;
+    font-size: 19px;
+}
+p3 {
+    font-family:'Courgette', cursive;
+    font-size: 17px;
+}
+div.gallery {
+    margin: 10px;
+    border: 2px solid black;
+    float: right;
+    width: 103%;
+    display: in-line block;
+}
+div.column {
+    float: center;
+    width: 100%;
+}
+div.gallery:hover {
+    border: 4px solid #ff80aa;
+}
+div.gallery img {
+    size: contain;
+    width: 100%;
+    height: 109%;
+}
+div.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+.row, .row > .column {
+    padding: 3px;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+.row::after {
+    content:"";
+    clear: both;
+    display: table;
+}
