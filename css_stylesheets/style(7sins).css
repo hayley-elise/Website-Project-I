@@ -90,7 +90,7 @@ div.column {
     width: 100%;
 }
 div.gallery:hover {
-    border: 4px solid #990000;
+    border: 4px solid #1bb607;
 }
 div.gallery img {
     size: contain;
